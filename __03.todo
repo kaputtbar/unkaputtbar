@@ -1,0 +1,19 @@
+
+in ./bin/server_main.js:
+
+make a recursive search through './routes' 
+	- require all those modules found, and insert into 'app.use('/', {module})'
+	
+that way, you do not have to make any updates in the ./bin file 'server_main.js' 
+and
+you can focus on just getting the correct views:
+
+however, maybe you should also have a function that you could use in your routes:
+
+so that, eg.
+	router.get()
+	router.post()
+	router.
+	
+	
+	
