@@ -1,2 +1,4 @@
 # unkaputtbar
 openshift application
+
+kapituliert!
